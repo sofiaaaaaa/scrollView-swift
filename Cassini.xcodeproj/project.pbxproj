@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10A7DCC2136AA3500C53B7F /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A7DCB2136AA3500C53B7F /* CassiniViewController.swift */; };
 		A1E00BA021329DE7008D65AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E00B9F21329DE7008D65AB /* AppDelegate.swift */; };
 		A1E00BA521329DE7008D65AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E00BA321329DE7008D65AB /* Main.storyboard */; };
 		A1E00BA721329DEA008D65AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E00BA621329DEA008D65AB /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A10A7DCB2136AA3500C53B7F /* CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 		A1E00B9C21329DE7008D65AB /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E00B9F21329DE7008D65AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1E00BA421329DE7008D65AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		A1E00BCE21329EA5008D65AB /* imageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageViewController.swift; sourceTree = "<group>"; };
 		A1E00BD02132A423008D65AB /* DemoURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
 		A1E00BD22132A643008D65AB /* oval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oval.jpg; sourceTree = "<group>"; };
+		A1E00C4D2133FEB0008D65AB /* lecture 10.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "lecture 10.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 			children = (
 				A1E00BD22132A643008D65AB /* oval.jpg */,
 				A1E00BCE21329EA5008D65AB /* imageViewController.swift */,
+				A10A7DCB2136AA3500C53B7F /* CassiniViewController.swift */,
 				A1E00BA321329DE7008D65AB /* Main.storyboard */,
 				A1E00BD02132A423008D65AB /* DemoURLs.swift */,
 				A1E00BCD21329E06008D65AB /* Supporting Files */,
@@ -132,11 +136,20 @@
 		A1E00BCD21329E06008D65AB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A1E00C4C2133FE8E008D65AB /* Note */,
 				A1E00B9F21329DE7008D65AB /* AppDelegate.swift */,
 				A1E00BA621329DEA008D65AB /* Assets.xcassets */,
 				A1E00BA821329DEA008D65AB /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1E00C4C2133FE8E008D65AB /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				A1E00C4D2133FEB0008D65AB /* lecture 10.md */,
+			);
+			path = Note;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +287,7 @@
 				A1E00BCF21329EA5008D65AB /* imageViewController.swift in Sources */,
 				A1E00BA021329DE7008D65AB /* AppDelegate.swift in Sources */,
 				A1E00BD12132A423008D65AB /* DemoURLs.swift in Sources */,
+				A10A7DCC2136AA3500C53B7F /* CassiniViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
